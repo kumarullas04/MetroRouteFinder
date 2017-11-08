@@ -1,0 +1,338 @@
+{
+  "default_ticket_cost_per_station": 1,
+  "line_switch_cost": 1,
+  "default_time_between_station":5,
+  "stations": [
+    {
+      "name":"East end",
+      "is_active": true
+    },
+    {
+      "name":"Foot stand"
+    },
+    {
+      "name":"Football stadium"
+    },
+    {
+      "name":"City Centre"
+    },
+    {
+      "name":"Peter Park"
+    },
+    {
+      "name":"Maximus"
+    },
+    {
+      "name":"Rocky Street"
+    },
+    {
+      "name":"Boxers Street"
+    },
+    {
+      "name":"Boxing avenue"
+    },
+    {
+      "name":"West End"
+    },
+
+    {
+      "name":"North Pole"
+    },
+    {
+      "name":"Sheldon Street"
+    },
+    {
+      "name":"Greenland"
+    },
+    {
+      "name":"Stadium House"
+    },
+    {
+      "name":"Green House"
+    },
+    {
+      "name":"Green Cross"
+    },
+    {
+      "name":"South Pole"
+    },
+    {
+      "name":"South Park"
+    },
+
+    {
+      "name":"Matrix Stand"
+    },
+    {
+      "name":"Keymakers Lane"
+    },
+    {
+      "name":"Oracle Lane"
+    },
+    {
+      "name":"Cypher lane"
+    },
+    {
+      "name":"Smith lane"
+    },
+    {
+      "name":"Morpheus lane"
+    },
+    {
+      "name":"Trinity lane"
+    },
+    {
+      "name":"Neo Lane"
+    },
+
+    {
+      "name":"Green Cross"
+    },
+    {
+      "name":"Orange Street"
+    },
+    {
+      "name":"Silk Board"
+    },
+    {
+      "name":"Snake Park"
+    },
+    {
+      "name":"Little Street"
+    },
+    {
+      "name":"Cricket Grounds"
+    },
+
+    {
+      "name":"Gotham street"
+    },
+    {
+      "name":"Batman street"
+    },
+    {
+      "name":"Jokers street"
+    },
+    {
+      "name":"Hawkins street"
+    },
+    {
+      "name":"Da Vinci lane"
+    },
+    {
+      "name":"Newton bath tub"
+    },
+    {
+      "name":"Einstein lane"
+    }
+  ],
+
+  "tracks":[
+    {
+      "track_type": "BLUE",
+      "station1": "East end",
+      "station2": "Foot stand",
+      "ticket_cost":1,
+      "time_duration":5
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Foot stand",
+      "station2": "Football stadium"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Football stadium",
+      "station2": "City Centre"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "City Centre",
+      "station2": "Peter Park"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Peter Park",
+      "station2": "Maximus"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Maximus",
+      "station2": "Rocky Street"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Rocky Street",
+      "station2": "Boxers Street"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Boxers Street",
+      "station2": "Boxing avenue"
+    },
+    {
+      "track_type": "BLUE",
+      "station1": "Boxing avenue",
+      "station2": "West End"
+    },
+
+    {
+      "track_type": "GREEN",
+      "station1": "North Pole",
+      "station2": "Sheldon Street"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "Sheldon Street",
+      "station2": "Greenland"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "Greenland",
+      "station2": "City Centre"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "City Centre",
+      "station2": "Stadium House"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "Stadium House",
+      "station2": "Green House"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "Green House",
+      "station2": "Green Cross"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "Green Cross",
+      "station2": "South Pole"
+    },
+    {
+      "track_type": "GREEN",
+      "station1": "South Pole",
+      "station2": "South Park"
+    },
+
+    {
+      "track_type": "RED",
+      "station1": "Matrix Stand",
+      "station2": "Keymakers Lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Keymakers Lane",
+      "station2": "Oracle Lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Oracle Lane",
+      "station2": "Boxing avenue"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Boxing avenue",
+      "station2": "Cypher lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Cypher lane",
+      "station2": "Smith lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Smith lane",
+      "station2": "Morpheus lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Morpheus lane",
+      "station2": "Trinity lane"
+    },
+    {
+      "track_type": "RED",
+      "station1": "Trinity lane",
+      "station2": "Neo Lane"
+    },
+
+    {
+      "track_type": "YELLOW",
+      "station1": "Green Cross",
+      "station2": "Orange Street"
+    },
+    {
+      "track_type": "YELLOW",
+      "station1": "Orange Street",
+      "station2": "Silk Board"
+    },
+    {
+      "track_type": "YELLOW",
+      "station1": "Silk Board",
+      "station2": "Snake Park"
+    },
+    {
+      "track_type": "YELLOW",
+      "station1": "Snake Park",
+      "station2": "Morpheus lane"
+    },
+    {
+      "track_type": "YELLOW",
+      "station1": "Morpheus lane",
+      "station2": "Little Street"
+    },
+    {
+      "track_type": "YELLOW",
+      "station1": "Little Street",
+      "station2": "Cricket Grounds"
+    },
+
+    {
+      "track_type": "BLACK",
+      "station1": "East end",
+      "station2": "Gotham street"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Gotham street",
+      "station2": "Batman street"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Batman street",
+      "station2": "Jokers street"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Jokers street",
+      "station2": "Hawkins street"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Hawkins street",
+      "station2": "Da Vinci lane"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Da Vinci lane",
+      "station2": "South Park"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "South Park",
+      "station2": "Newton bath tub"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Newton bath tub",
+      "station2": "Einstein lane"
+    },
+    {
+      "track_type": "BLACK",
+      "station1": "Einstein lane",
+      "station2": "Neo Lane"
+    }
+  ]
+}

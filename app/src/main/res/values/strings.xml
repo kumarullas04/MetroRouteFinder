@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyMetro</string>
+    <string name="json_load_failed">Failed to read json file</string>
+    <string name="the_minimum_cost">"The Minimum Cost : "</string>
+    <string name="currency_symbol">$</string>
+    <string name="time_it_would_take">"The time it would take : "</string>
+    <string name="time_unit">minutes</string>
+    <string name="no_path_found">No path exist between given stations</string>
+</resources>
